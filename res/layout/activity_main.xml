@@ -10,8 +10,6 @@
         android:id="@+id/ProgressBar1"
         android:layout_width="42dip"
         android:layout_height="42dip"
-        
-        
         android_custom:roundColor="#D1D1D1"
         android_custom:roundProgressColor="#74b94b"
         android_custom:roundWidth="2dip"
@@ -58,5 +56,19 @@
         android_custom:textIsDisplayable="true"
         android_custom:textSize="18sp" 
         android:layout_gravity="center"/> 
+        
+         <com.example.customprogresbar.RoundProgressBar1
+        android:id="@+id/ProgressBar5"
+        android:layout_width="42dip"
+        android:layout_height="42dip"
+        
+        android_custom:roundColor="#D1D1D1"
+        android_custom:roundProgressColor="#74b94b"
+        android_custom:roundWidth="2dip"
+        android_custom:textColor="#9A32CD"
+        android_custom:textIsDisplayable="true"
+        android_custom:textSize="18sp" 
+       /> 
+       
 
 </LinearLayout>

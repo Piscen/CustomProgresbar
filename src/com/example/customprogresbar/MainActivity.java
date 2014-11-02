@@ -6,20 +6,22 @@ import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
-	RoundProgressBar item1,item2,item3,item4;
+	RoundProgressBar item1,item2,item3,item4,item5;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
 		item1 = (RoundProgressBar) findViewById(R.id.ProgressBar1);
 		item2 = (RoundProgressBar) findViewById(R.id.ProgressBar2);
 		item3 = (RoundProgressBar) findViewById(R.id.ProgressBar3);
 		item4 = (RoundProgressBar) findViewById(R.id.ProgressBar4);
-
+		item5 = (RoundProgressBar) findViewById(R.id.ProgressBar5);
+		
 		item1.setProgress(28);
 		item2.setProgress(0);
 		item3.setProgress(100);
-		
+		item5.setState(RoundProgressBar1.FAILD);
 		new CountDownTimer(10000,100) {
 
 			@Override
